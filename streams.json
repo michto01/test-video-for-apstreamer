@@ -1,5 +1,44 @@
 {
 	"streams":[
-		{ "id":"hls_video_sample", "name":"X_D_Github_Test_Bunny" }
+		{
+                    "id": "hls_video_sample",
+                    "name": "X_C_Github_Test_Bunny",
+                    "predicate": "Github",
+                    "subject": "Test",
+                    "object": {
+                        "type": "live",
+                        "camera": "Bunny",
+                        "3D": 0,
+                        "date": "2015-11-05",
+                        "time": "15:02:15",
+                        "phone": "301@apollon.gatema.cz",
+                        "extra": {
+                            "pacs": "ID-PACS-007",
+                            "desctiption": "This operation will kill the mouse",
+                            "L3Name": "Bunny",
+                            "staticVideoName" : "nahled"
+                        }
+                    }
+                },
+                {
+                    "id": "hls_video_sample",
+                    "name": "X_C_A_B_C",
+                    "predicate": "Cardiology",
+                    "subject": "Operating Room 1",
+                    "object": {
+                        "type": "live",
+                        "camera": "Endoscope Sony",
+                        "3D": 0,
+                        "date": "2015-11-05",
+                        "time": "15:02:15",
+                        "phone": "301@apollon.gatema.cz",
+                        "extra": {
+                            "pacs": "ID-PACS-007",
+                            "desctiption": "This operation will kill the mouse",
+                            "L3Name": "Endoscope",
+                            "staticVideoName" : "endo"
+                        }
+                    }
+                }
 	]
 }

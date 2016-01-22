@@ -31,7 +31,7 @@
                         "3D": 0,
                         "date": "2015-11-05",
                         "time": "15:02:15",
-                        "phone": "772F@10.255.0.200:5060",
+                        "phone": "772F",
                         "extra": {
                             "pacs": "ID-PACS-007",
                             "desctiption": "This operation will kill the mouse",
